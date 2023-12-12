@@ -1,0 +1,69 @@
+/* components/Hero.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+.hero {
+  /* background-image:  linear-gradient(90deg,rgba(0, 0, 0, 0.489), transparent), url('../../public/home.jpg');  */
+    background-image:linear-gradient(#20202096, #20202096), url('../../public/img.png'); /* Replace with the path to your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #f1e4e4;
+    text-align: center;
+    top: 0;
+    position: absolute;
+    padding: 100px 0;
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    object-fit: scale-down;
+    border-radius: 0 0 9px 9px;
+  }
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+    z-index: -1; /* Place the overlay behind the content */
+  }
+  
+  .heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+        margin-bottom: 20px;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .heroButton {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 3px solid white;
+    color: #fff;
+    text-decoration: none;
+   padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .heroButton:hover {
+    background-color:  #06624a;
+    ;
+  }
+  
